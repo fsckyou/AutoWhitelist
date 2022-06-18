@@ -44,11 +44,11 @@ dependencies {
     include(modImplementation(fabricApi.module("fabric-lifecycle-events-v1", project.fabric_version)))
     include(modImplementation(fabricApi.module("fabric-api-base", project.fabric_version)))
 
-    implementation('net.dv8tion:JDA:4.4.0') {
+    implementation('net.dv8tion:JDA:5.0.0-alpha.12') {
         exclude module: 'opus-java'
     }
 
-    includeTransitive implementation('net.dv8tion:JDA:4.4.0_352') {
+    includeTransitive implementation('net.dv8tion:JDA:5.0.0-alpha.12') {
         exclude module: 'opus-java'
     }
 }

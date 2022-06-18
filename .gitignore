@@ -120,3 +120,5 @@ run/
 /users.db
 /auto-whitelist.json
 /remappedSrc/
+bin/main/assets/autowhitelist/icon.png
+bin
