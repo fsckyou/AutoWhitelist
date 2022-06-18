@@ -12,6 +12,7 @@
   "command.description.serverstatus": "Shows the Minecraft server status.",
   "command.description.serverinfo": "Shows the Minecraft server status.",
   "command.description.status": "Shows the system status.",
+  "command.description.info": "Shows the system status.",
   "command.description.register": "Adds the informed minecraft account to the Member Server whitelist. [Members only]",
 
   "command.description.help.command": "Command to display the help of",

@@ -38,7 +38,7 @@ public class HelpCommand {
 
             embedBuilder.setAuthor(jda.getSelfUser().getName(), "https://discord.com", jda.getSelfUser().getAvatarUrl());
             embedBuilder.setTitle(new TranslatableText("command.name.help").getString());
-            embedBuilder.setFooter("Minecraft PhoenixSC Edition");
+            embedBuilder.setFooter(new TranslatableText("command.feedback.message.signature").getString());
 
             for (String string : map.values()) {
                 embedBuilder.appendDescription(new LiteralText("`" + AutoWhitelist.getConfigData().prefix + string + "` | ").append(new TranslatableText("command.description." + string.split(" ", 2)[0])).getString());
@@ -64,7 +64,7 @@ public class HelpCommand {
 
                 embedBuilder.setAuthor(jda.getSelfUser().getName(), "https://discord.com", jda.getSelfUser().getAvatarUrl());
                 embedBuilder.setTitle(new TranslatableText("command.name.help").getString());
-                embedBuilder.setFooter("Minecraft PhoenixSC Edition");
+                embedBuilder.setFooter(new TranslatableText("command.feedback.message.signature").getString());
 
                 for (String string : map.values()) {
                     String result = parseResults.getReader().getString();
